@@ -6,10 +6,10 @@ patient = PatientList.add_patient(
     symptoms=symptom_list
 )
 <p>creates a patient object if patient_id not in current list</p>
-delete_patient = i = PatientList.delete_patient("2")
+<p>delete_patient = i = PatientList.delete_patient("2")</p>
 <p>deletes patient and returns deleted patient object, returns None if patient doesn't exist</p>
-patient = PatientList.get_patient(user_id)
+<p>patient = PatientList.get_patient(user_id)</p>
 <p>if no patient is found, returns None</p>
-symptom_list = patient.get_symptom_list()
+<p>symptom_list = patient.get_symptom_list()</p>
 <p>returns the patient's symptom list</p>
 
