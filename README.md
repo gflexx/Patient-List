@@ -1,6 +1,6 @@
 # Patient-List
 python classes for holding a list of patients and their data
-<h4>What you can do with it</h4>
+# What you can do with it
 patient = PatientList.add_patient(
     patient_id=user_id,
     symptoms=symptom_list
